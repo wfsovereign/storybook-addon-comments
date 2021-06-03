@@ -6,7 +6,7 @@ but currently open source does not work. So this project born.
 
 ## Usage
 
-Install with: `yarn add storybook-addon-comments`
+Install with: `yarn add storybook-comments`
 
 Add this line to `.storybook/main.js`:
 
