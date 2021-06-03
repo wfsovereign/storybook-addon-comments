@@ -16,6 +16,10 @@
     "README.md",
     "*.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wfsovereign/storybook-addon-comments.git"
+  },
   "scripts": {
     "clean": "rimraf ./dist",
     "buildBabel": "babel ./src --out-dir ./dist --extensions \".js,.jsx,.ts,.tsx\"",
