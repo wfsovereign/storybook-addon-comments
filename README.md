@@ -12,10 +12,6 @@ Simplify the creation of Storybook addons
 ### Run Script
 
 #### Install
-```sh
-npm install
-```
-or
 ```shell script
 yarn 
 ```
@@ -29,6 +25,38 @@ yarn start
 - `npm run start` runs babel in watch mode and starts Storybook
 - `npm run build` build and package your addon code
 
+## Usage
+
+Install with: `yarn add storybook-addon-comments`
+
+Add this line to `.storybook/main.js`:
+
+```javascript
+
+module.exports = {
+  "addons": [
+    ...
+    "storybook-addon-comments",
+  ]
+}
+```
+
+Within your `.storybook/preview.js` file, add this:
+
+```javascript
+
+export const parameters = {
+  comments: {
+    apiKey: '',
+    authDomain: '',
+    databaseURL: '',
+    projectId: '',
+    storageBucket: '',
+    messagingSenderId: '',
+  }
+}
+```
+> You can find the values necessary by visiting your Firebase console.
 
 ### Metadata
 
