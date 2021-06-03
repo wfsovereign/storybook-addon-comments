@@ -6,18 +6,6 @@ import { ADDON_ID, PANEL_ID } from "../constants";
 // import { Panel } from "../Panel";
 import Feedback from "../container/Feedback";
 
-// configureDatabase({
-//   databaseType: 'firebase',
-//   firebaseConfig: {
-//     apiKey: "AIzaSyDb1jHEtWDDjbb-SXCKoQ3TuBLe5QFjZ0k",
-//     authDomain: "wfsovereign.firebaseapp.com",
-//     projectId: "wfsovereign",
-//     storageBucket: "wfsovereign.appspot.com",
-//     messagingSenderId: "58065015750",
-//     appId: "1:58065015750:web:2850bb561c869505f2d8c7",
-//     measurementId: "G-KF8CVMNDLV"
-//   },
-// })
 
 // Register the addon
 addons.register(ADDON_ID, () => {
