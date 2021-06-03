@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-comments",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "storybook addon for component comments/feedback",
   "keywords": [
     "storybook-addons",
