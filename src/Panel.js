@@ -3,7 +3,6 @@ import { useAddonState, useChannel } from "@storybook/api";
 import { AddonPanel } from "@storybook/components";
 import { ADDON_ID, EVENTS } from "./constants";
 import { PanelContent } from "./components/PanelContent";
-import Feedback from "./container/Feedback";
 
 export const Panel = (props) => {
   // https://storybook.js.org/docs/react/addons/addons-api#useaddonstate
