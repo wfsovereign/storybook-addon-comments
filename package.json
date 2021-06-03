@@ -1,17 +1,14 @@
 {
-  "name": "storybook-addon-kit",
-  "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "name": "storybook-addon-comments",
+  "version": "0.0.1",
+  "description": "storybook addon for component comments/feedback",
   "keywords": [
     "storybook-addons",
-    "style",
-    "test"
+    "storybook",
+    "comments",
+    "feedback"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
-  },
-  "author": "winkerVSbecks",
+  "author": "wfsovereign",
   "license": "MIT",
   "main": "dist/preset",
   "files": [
@@ -68,12 +65,18 @@
     "access": "public"
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "storybook-addon-comments",
     "supportedFrameworks": [
       "react",
       "vue",
       "angular"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+  },
+  "dependencies": {
+    "firebase": "^8.6.3",
+    "ramda": "^0.27.1",
+    "react-feather": "^2.0.9",
+    "uuid": "^8.3.2"
   }
 }
